@@ -1,9 +1,9 @@
 function one(arr){
-    let tuple = [ , ]
+    let tuple = null;
     
     let random =  () => Math.floor(Math.random() * arr.length);
 
-    tuple = [arr[random()], arr[random()]];
+    tuple = [arr[random()], arr[random()], arr[random()], arr[random()]];
 
     return tuple;
 }
