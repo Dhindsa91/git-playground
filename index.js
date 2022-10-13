@@ -11,3 +11,9 @@ function one(arr){
 
 let arr = [2, 3, 1, 66, 44, 21, 111];
 console.log(one(arr));
+
+
+function second(msg){
+    return `The following is your message: ${msg}`;
+}
+console.log(second("Hey =o"))
