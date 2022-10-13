@@ -4,6 +4,7 @@ function one(arr){
     let random =  () => Math.floor(Math.random() * arr.length);
 
     tuple = [arr[random()], arr[random()], arr[random()], arr[random()]];
+    tuple.sort((a, b) => a - b)
 
     return tuple;
 }
